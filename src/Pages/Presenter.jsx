@@ -21,10 +21,16 @@ export default function Presenter() {
           </Text>
         </Box>
 
-        <Box px='20px' py='40px' margin='0 auto' width='60%'>
+        <Box
+         px='20px'
+          py='40px' 
+          margin='0 auto'
+          width='80%'
+          // backgroundColor='yellow'
+          >
           <SimpleGrid
             minChildWidth={["90px", "120px"]}
-            spacing='30px'
+            spacing='20px'
             column={3}
           >
             {Sponsor.map((item, index) => (

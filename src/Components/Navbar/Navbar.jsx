@@ -1,6 +1,6 @@
 import React from "react";
 import "../Navbar/Navbar.css";
-import logo from "../../../src/Images/LCS 2 1 (1).svg";
+import logo from "../../Assets/LCShigh.png";
 import { Link } from "react-scroll";
 // import AboutUs from "../../Pages/AboutUs";
 import Hero from "../Hero/Hero";
@@ -14,7 +14,9 @@ export default function Navbar() {
     <div className='navbar sticky-navbar'>
       <div className='navbar'>
         <div className='navbar-nav'>
-          <div style={{ padding: "10px 0px" }}>
+          <div 
+         // style={{ padding: "10px 0px" }}
+          >
             <Link to='/'>
               <img src={logo} alt='' />
             </Link>
@@ -27,7 +29,7 @@ export default function Navbar() {
                   fontWeight='600'
                   onSetActive={handleSetActive}
                 >
-                  About
+                  ABOUT
                 </Text>{" "}
               </Link>
             </div>
@@ -39,7 +41,7 @@ export default function Navbar() {
                   fontWeight='600'
                   onSetActive={handleSetActive}
                 >
-                  Speakers
+                  SPEAKERS
                 </Text>
               </Link>
             </div>
@@ -50,25 +52,25 @@ export default function Navbar() {
                   fontWeight='600'
                   onSetActive={handleSetActive}
                 >
-                  Sponsors
+                  SPONSORS
                 </Text>
               </Link>
             </div>
             <div className='navbar-svg'>
               <Link to='Agenda' smooth={true} duration={500}>
                 <Text fontSize='15px' fontWeight='600'>
-                  Agenda
+                  AGENDA
                 </Text>
               </Link>
             </div>
             {/* <Link to='/Blog'> */}
-            <div className='navbar-svg'>
+            {/* <div className='navbar-svg'>
               <Link to='Sponsors' smooth={true} duration={500}>
                 <Text fontSize='15px' fontWeight='600'>
-                  Practical Information
+                  Spo
                 </Text>
               </Link>
-            </div>
+            </div> */}
             {/* </Link> */}
             {/* <Link>Gallery</Link> */}
           </div>
@@ -81,7 +83,7 @@ export default function Navbar() {
                   fontSize: "18px",
                 }}
               >
-                Book Now
+                Register
               </Link>
             </button>
           </div>

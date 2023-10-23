@@ -150,7 +150,6 @@ h4 {
   display: flex;
   justify-content: space-around;
   padding: 40px;
-  border: 2px solid #fff;
   /* background-color: #fff; */
   border-radius: 10px;
   gap: 10px;

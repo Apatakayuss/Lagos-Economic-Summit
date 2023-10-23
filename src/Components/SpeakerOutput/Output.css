@@ -7,6 +7,7 @@
     align-items: center;
     padding: 25px 0;
     gap: 12px;
+    background-color: green;
 }
 @media (max-width: 768px){
     .speaker-container{
@@ -24,4 +25,3 @@
     width: fit-content;
     text-align: center;
   }
- 

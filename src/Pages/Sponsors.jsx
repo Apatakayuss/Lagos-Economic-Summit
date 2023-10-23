@@ -2,8 +2,6 @@ import React from "react";
 import {
   Box,
   Text,
-  //Button,
-  Image,
   SimpleGrid,
 } from "@chakra-ui/react";
 // import Bolt from "../Assets/Bolts.png";
@@ -12,24 +10,26 @@ import Agra from "../Assets/AGRA.png";
 import Aice from "../Assets/AICE.png";
 import Eco from "../Assets/ECO.jpeg";
 import Afya from "../Assets/AfyaRekod.jpeg";
+import  { GiCheckMark } from 'react-icons/gi'
 // import { ColoredLine } from "../Components/Colorline";
 
 export default function Sponsors() {
   const email = "lagos-summit@forum.com";
   // const imageUrl =
   //   "https://global-aiconference.com/wp-content/uploads/2023/07/3007-Ai23-Web-Backgrounds-1900x600px-1-scaled.jpg";
-  const Url =
-    "	https://global-aiconference.com/wp-content/uploads/2023/07/checked.png";
+  // const Url =
+  //   "	https://global-aiconference.com/wp-content/uploads/2023/07/checked.png";
   return (
     <Box>
       <Box
-        pb='40px'
+      width= '100%'
+        // pb='40px'
         // bgImage={`url(${imageUrl})`}
         // backgroundSize='cover'
-        backgroundPosition='100%'
+        // backgroundPosition='100%'
         // backgroundPosition='center'
       >
-        <Box width='100%' maxWidth='1280px' margin='0 auto'>
+        <Box width='90%' maxWidth='1280px' margin='0 auto'>
           <Box
             display='flex'
             flexDirection='column'
@@ -110,8 +110,11 @@ export default function Sponsors() {
                     // height='100%'
                     alt=''
                   /> */}
-                  <Box width='50px'>
-                    <Image src={Url} />
+                  <Box width='fit-content'
+                  color= '#0F3879'
+                  >
+                    <GiCheckMark size={20}/>
+                    {/* <Image src={Url} /> */}
                   </Box>
                   <Box ml='15px' display='flex' alignItems='center'>
                     <Text fontSize='18px'>{item.text}</Text>

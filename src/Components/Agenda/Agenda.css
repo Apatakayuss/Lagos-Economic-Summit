@@ -1,4 +1,4 @@
-
+/* 
 .accordion-container {
     width: 80%;
     margin: 0 auto;
@@ -74,7 +74,6 @@
     margin: auto;
     margin-bottom: 15px;
     font-weight: 700;
-    /* border-bottom: 3px solid; */
     font-size: 3.125rem;
     color: #0f3879;
     width: fit-content;
@@ -107,4 +106,168 @@
   }
   .contain{
     margin-bottom: 10px;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Agenda.css */
+
+.accordion-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.accordion-container {
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+.accordion-item {
+  border-top: 1px solid #ddd;
+  padding: 0 16px;
+  position: relative;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  &:hover {
+    background-color: #f0f0f0;
   }
+  &.active {
+    background-color: #f0f0f0;
+  }
+}
+
+.accordion-button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  align-items: center;
+  justify-content: space-between;
+ 
+  cursor: pointer;
+  .infor {
+    flex: 1;
+    display: flex;
+  }
+
+  .accordion-time {
+    font-size: 16px;
+    width: 100px;
+  }
+  .accordion-time p{
+    font-size: 16px;
+  }
+
+  .accordion-title {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+  }
+
+  .accordion-icon {
+    font-size: 24px;
+  }
+}
+
+.accordion-content {
+  padding: 16px;
+
+  .accordion-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .accordion-text {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+
+.accordion-item {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.accordion-button:hover {
+  background-color: #e5e5e5;
+}
+
+.accordion-item.active {
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.accordion-icon {
+  font-size: 24px;
+  margin-left: 5px;
+  transition: transform 0.2s ease;
+}
+
+.accordion-item.active .accordion-icon {
+  transform: rotate(45deg);
+}
+
+
+.summit-theme {
+  background-color: #0f3879;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.theme h4 {
+  font-size: 24px;
+  margin: 0;
+  color: #fff;
+}
+
+.theme p {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Style for the topics heading */
+.topics {
+  margin: auto;
+  margin-bottom: 15px;
+  font-size: 3.125rem;
+  color: #0f3879;
+  width: fit-content;
+  text-align: center;
+  font-weight: 700;
+}
+
