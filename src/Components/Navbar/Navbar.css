@@ -17,7 +17,7 @@
 }
 
 img {
-  width: 150px;
+  width: 180px;
 }
 
 .navbar-pages {
@@ -37,11 +37,12 @@ img {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.16px;
-  color: black;
+  color: #0f3879;
 }
 
 a:hover {
-  color: #0f3879;
+  color: #5774a1;
+  
 }
 
 .navbar-svg {

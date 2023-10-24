@@ -1,0 +1,19 @@
+.sponsors-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sponsor{
+    display: grid;
+    place-content: center;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head h3{
+    font-size: 3.125rem;
+    color: #0f3879;
+    font-weight: 700;
+}

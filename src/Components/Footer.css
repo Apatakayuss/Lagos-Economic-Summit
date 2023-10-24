@@ -1,6 +1,8 @@
 .footer-container{
    width: 100%;
-    background-color: #ECFBFD;
+   background-color: #0f3879;
+   color: #ECFBFD;
+    /* background-color: #ECFBFD; */
 }
 .footer{
     padding: 40px 0 10px 0;
@@ -10,7 +12,8 @@
 }
 
 .iconlink{
-    color: rgb(167, 162, 162);
+    /* color: rgb(167, 162, 162); */
+    color: #ECFBFD;
 }
 .detail{
     width: 90%;
@@ -83,7 +86,7 @@
     margin-top: 8px;
 }
 .iconlink:hover{
-    color: #154796;
+    color: #fff;
 }
 
 .info-tel, .info-img{

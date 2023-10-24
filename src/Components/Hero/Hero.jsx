@@ -44,11 +44,11 @@ const SlidingContentBackground = () => {
 
           <div className='bottom'>
             <div className='date'>
-              <h4
+              {/* <h4
                 style={{ fontSize: "16px", color: "#FFF", fontWeight: "600" }}
               >
                 Date:
-              </h4>
+              </h4> */}
               <p
                 style={{ color: "#FFF", fontWeight: "600", textAlign: "left" }}
               >
@@ -57,11 +57,11 @@ const SlidingContentBackground = () => {
             </div>
 
             <div className='venue'>
-              <h4
+              {/* <h4
                 style={{ fontSize: "16px", color: "#FFF", fontWeight: "600" }}
               >
                 Venue:
-              </h4>
+              </h4> */}
               <p
                 style={{ color: "#FFF", fontWeight: "600", textAlign: "left" }}
               >

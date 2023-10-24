@@ -8,20 +8,15 @@ import Speakers from '../../Components/NewSpeakers'
     <div className="speaker-wrap">
         <p className="topic">Speakers</p>
       <div className='speaker-container'> 
+
       <Speakers className='output'
           src={Killian}
           alt="Image 1 Alt Text"
-          name='Killian Mayua'
-          position="Country Head, Adanian Labs NG"
-          linkedinUrl='https://www.linkedin.com/in/prince-killian-mayua-bb919838/'
+          caption='Killian Mayua'
+          secCaption="Country Head, Adanian Labs NG"
+          linkedinLink='https://www.linkedin.com/in/prince-killian-mayua-bb919838/'
         /> 
-      <Speakers className='output'
-          src={Killian}
-          alt="Image 1 Alt Text"
-          name='Killian Mayua'
-          position="Country Head, Adanian Labs NG"
-          linkedinUrl='https://www.linkedin.com/in/prince-killian-mayua-bb919838/'
-        /> 
+    
       <Speakers className='output'
           src={Killian}
           alt="Image 1 Alt Text"

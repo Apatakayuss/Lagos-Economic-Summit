@@ -19,7 +19,7 @@ return (
     <div className='footer'>
         <div className='detail'>
             <div className="detail-left deets" style={{display: 'flex', flexDirection: 'column'}}>
-                <h4 style={{ color: '#0F3879' }}>Office Address</h4>
+                <h4 style={{ color: '#ECFBFD' }}>Office Address</h4>
                 <p className='p-mid'>Sunny Motors, Plot 3, Otunba Adedoyin Ogunge close,</p>
                 <p>Lekki phase 1, Lagos. Nigeria.</p>
 
@@ -40,19 +40,19 @@ return (
             </div>
             </div>
             <div className="detail-right deets" style={{display: 'flex', flexDirection: 'column'}}>
-                <h4 style={{ color: '#0F3879' }}>Event Address</h4>
+                <h4 style={{ color: '#ECFBFD' }}>Event Address</h4>
                 <p className='p-mid'>The Ball-Room, Lagos Oriental Hotel Lekki - Epe Expy,</p>
                 <p>Victoria Island 106104, Lagos</p>
 
                 <div className='info-tel' style={{justifyContent: 'flex-start'}}>
                 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <BsFillTelephoneOutboundFill  style={{color: '#0F3879'}}/>
-                    <p style={{ textAlign: 'left', color: '#0F3879' }}>+234 706 728 1296</p>
+                    <BsFillTelephoneOutboundFill  style={{color: '#ECFBFD'}}/>
+                    <p style={{ textAlign: 'left', color: '#ECFBFD' }}>+234 706 728 1296</p>
                 </div>
                
                 <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginTop: '10px'}}>
-                    <IoMdMail size={20} style={{color: '#0F3879'}}/>
-                    <p style={{ textAlign: 'left', color: '#0F3879' }}>hello@lagosclimatesummit.org</p>
+                    <IoMdMail size={20} style={{color: '#ECFBFD'}}/>
+                    <p style={{ textAlign: 'left', color: '#ECFBFD' }}>hello@lagosclimatesummit.org</p>
                 </div>
             </div>
             </div>

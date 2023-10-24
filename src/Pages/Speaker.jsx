@@ -21,9 +21,11 @@ export default function Speaker() {
   const handleMouseLeave = () => {
     setIsHovered(null);
   };
+
+  
   return (
     <div>
-      <Box maxWidth='1280px' p='20px 25px' margin='0 auto'>
+      <Box width='80%' p='20px 25px' margin='0 auto'>
         <Box
           justifyContent='center'
           display='flex'
@@ -31,7 +33,7 @@ export default function Speaker() {
           p='20px'
           alignContent='center'
         >
-          <Box
+          {/* <Box
             width='50%'
             display='flex'
             flexDirection='column'
@@ -41,14 +43,13 @@ export default function Speaker() {
             alignItems='center'
             margin='0 auto'
             cursor='pointer'
-          >
-            <Text fontSize='20px' alignItems='center' fontWeight='600'>
+          > */}
+            <Text fontSize='3.125rem' alignItems='center' fontWeight='600' color='#0f3879'>
               Speakers
             </Text>
-            <ColoredLine color='#0F3879' />
-          </Box>
+          {/* </Box> */}
         </Box>
-        <SimpleGrid minChildWidth='200px' spacing='70px'>
+        <SimpleGrid minChildWidth='180px' spacing='40px'>
           {peakers.map((item, index) => (
             <Box
               key={index}
@@ -79,9 +80,32 @@ export default function Speaker() {
                 className={`caption ${
                   isHovered === index ? "caption-visible" : ""
                 }`}
+                
               >
+                <Text
+                fontSize='14px'
+                width='100%'
+                >
                 {item.caption}
+                </Text>
               </div>
+
+
+
+              <div
+                className={`secCaption ${
+                  isHovered === index ? "caption-visible" : ""
+                }`}
+                
+              >
+                <Text
+                fontSize='14px'
+                width='100%'
+                >
+                {item.secCaption}
+                </Text>
+              </div>
+              
             </Box>
           ))}
         </SimpleGrid>
@@ -89,10 +113,13 @@ export default function Speaker() {
     </div>
   );
 }
+
+
 const peakers = [
   {
     imageURL: JohnKamar,
     caption: "John Kamara",
+    captionTwo: "Speaker"
   },
   {
     imageURL: Killian,
@@ -104,7 +131,7 @@ const peakers = [
   },
   {
     imageURL: Kamara,
-    caption: "Developer",
+    caption: "Developer Nantuya",
   },
   {
     imageURL: Guest,
@@ -123,3 +150,4 @@ const peakers = [
     caption: "Killian",
   },
 ];
+

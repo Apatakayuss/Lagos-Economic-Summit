@@ -43,14 +43,20 @@
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background-color: rgba(0, 0, 0, 0.51); */
+
   color: #fff;
-  padding: 5px;
-  border-radius: 5px;
+  width: 100%;
   opacity: 0;
   transition: opacity 0.3s;
   font-size: 18px;
 }
+
+
+
+
+
+
+
 
 .hovered .caption.overlay-visible {
   opacity: 1;
@@ -65,7 +71,6 @@
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background-color: rgba(0, 0, 0, 0.7); */
   color: #fff;
   padding: 5px;
   border-radius: 5px;
@@ -101,4 +106,30 @@
 }
 .caption {
   text-align: center;
+}
+
+
+
+
+
+
+.captionTwo {
+  position: absolute;
+  top: 95%; /* Adjust the top position to position it below the caption */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Background color and other styles for captionTwo */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0;
+  font-size: 10px;
+  text-align: center;
+  transition: opacity 0.3s;
+}
+
+/* Show captionTwo on hover */
+.hovered .captionTwo.overlay-visible {
+  opacity: 1;
 }

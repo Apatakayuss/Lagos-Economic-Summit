@@ -15,7 +15,6 @@ export default function Navbar() {
       <div className='navbar'>
         <div className='navbar-nav'>
           <div 
-         // style={{ padding: "10px 0px" }}
           >
             <Link to='/'>
               <img src={logo} alt='' />
