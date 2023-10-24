@@ -25,7 +25,7 @@ export default function Presenter() {
           <img src={Aice} alt="" />
         </div>
 
-        <div className="sponsor" >
+        <div className="sponsor us">
           <img src={US} alt="" style={{padding: '30px'}}/>
         </div>
 

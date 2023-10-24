@@ -7,7 +7,6 @@ import Killian from "../Assets/Killian.svg";
 // import JohnKamara from "../Assets/JohnKamaraImg.jpeg";
 import Kamara from "../Assets/johnKamara.jpeg";
 import JohnKamar from "../Assets/John_Kamara.jpeg";
-import { ColoredLine } from "../Components/Colorline";
 //import Map from "../Components/MapSection";
 import "../Styles/speakerCss.css";
 
