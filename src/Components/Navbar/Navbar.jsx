@@ -20,7 +20,11 @@ export default function Navbar() {
               <img src={logo} alt='' />
             </Link>
           </div>
-          <div className='navbar-pages'>
+
+
+          <div className='navbar-pages' 
+          style={{display: 'flex', margin: 'auto'}}
+          >
             <div className='navbar-svg'>
               <Link to='AboutUs' smooth={true} duration={500}>
                 <Text
@@ -62,17 +66,9 @@ export default function Navbar() {
                 </Text>
               </Link>
             </div>
-            {/* <Link to='/Blog'> */}
-            {/* <div className='navbar-svg'>
-              <Link to='Sponsors' smooth={true} duration={500}>
-                <Text fontSize='15px' fontWeight='600'>
-                  Spo
-                </Text>
-              </Link>
-            </div> */}
-            {/* </Link> */}
-            {/* <Link>Gallery</Link> */}
           </div>
+
+
           <div className='book-now'>
             <button>
               <Link

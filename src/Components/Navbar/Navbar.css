@@ -1,28 +1,31 @@
-/* *, *::before, *::after {
-  box-sizing: border-box;    
-} */
 
 .navbar sticky-navbar {
   position: sticky;
   top: 0;
-  background-color: #fff; /* Adjust the background color as needed */
+  background-color: #fff; 
   z-index: 100;
 }
 
 .navbar-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+
   padding: 0 5em;
 }
 
 img {
   width: 180px;
+  /* margin-right: 50px;
+  @media (max-width: 768px){
+    margin-right: 1px;
+  } */
 }
 
 .navbar-pages {
   display: flex;
   gap: 20px;
+  
 }
 .navbar-pages:hover {
   color: #0f3878;

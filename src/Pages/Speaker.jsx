@@ -1,13 +1,11 @@
 import { Box, SimpleGrid, Image, Text } from "@chakra-ui/react";
 import React, { useState } from "react";
-import Lady from "../Assets/speaker3.jpeg";
-import Guest from "../Assets/speaker4.jpeg";
+import Oguogo from "../Assets/oguogo.jpeg";
+import Chilosum from "../Assets/chilosum.jpeg";
 import ladySpeaker from "../Assets/ladySpeaker.jpeg";
 import Killian from "../Assets/Killian.svg";
-// import JohnKamara from "../Assets/JohnKamaraImg.jpeg";
 import Kamara from "../Assets/johnKamara.jpeg";
 import JohnKamar from "../Assets/John_Kamara.jpeg";
-//import Map from "../Components/MapSection";
 import "../Styles/speakerCss.css";
 
 export default function Speaker() {
@@ -125,7 +123,7 @@ const peakers = [
     caption: "Killian",
   },
   {
-    imageURL: Guest,
+    imageURL: Chilosum,
     caption: "Guest Speaker",
   },
   {
@@ -133,12 +131,12 @@ const peakers = [
     caption: "Developer Nantuya",
   },
   {
-    imageURL: Guest,
-    caption: "Guest Speaker",
+    imageURL: Chilosum,
+    caption: "Prince Chisolum",
   },
   {
-    imageURL: Lady,
-    caption: "Intern",
+    imageURL: Oguogo,
+    caption: "Great Oguogo",
   },
   {
     imageURL: ladySpeaker,
@@ -149,4 +147,12 @@ const peakers = [
     caption: "Killian",
   },
 ];
+
+
+
+
+
+
+
+
 

@@ -1,6 +1,7 @@
 // SlidingContentBackground.js
 import React from "react";
 import "./Hero.css";
+import { Link } from 'react-router-dom'
 // import image1 from "../../Assets/Background.png";
 // import image2 from "../../Assets/bg3.png";
 // import image3 from "../../Assets/background3.png";
@@ -40,15 +41,39 @@ const SlidingContentBackground = () => {
               LCS <span>2023</span>
             </h2>
             <p>LAGOS CLIMATE SUMMIT</p>
+
+            
+          </div>
+          <div className="next">
+          <p>21, Nov 2023 |  Ballroom, Oriental Hotel</p>
           </div>
 
-          <div className='bottom'>
+
+          <div className="new">
+            <h5>Innovating for a Resilient Future: Youth Empowerment and SME Resilience in Climate</h5>
+          </div>
+
+          <div className='book-now'>
+            <button>
+              <Link 
+                to='./BookNow'
+                style={{
+                  color: "#FFF",
+                  fontSize: "18px",
+                }}
+              >
+                Register
+              </Link>
+            </button>
+          </div>
+
+          {/* <div className='bottom'>
             <div className='date'>
-              {/* <h4
+              <h4
                 style={{ fontSize: "16px", color: "#FFF", fontWeight: "600" }}
               >
                 Date:
-              </h4> */}
+              </h4>
               <p
                 style={{ color: "#FFF", fontWeight: "600", textAlign: "left" }}
               >
@@ -57,18 +82,18 @@ const SlidingContentBackground = () => {
             </div>
 
             <div className='venue'>
-              {/* <h4
+              <h4
                 style={{ fontSize: "16px", color: "#FFF", fontWeight: "600" }}
               >
                 Venue:
-              </h4> */}
+              </h4>
               <p
                 style={{ color: "#FFF", fontWeight: "600", textAlign: "left" }}
               >
                 Ballroom, Oriental Hotel.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

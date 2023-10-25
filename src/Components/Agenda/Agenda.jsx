@@ -12,6 +12,7 @@ function AccordionItem({ time, title, content, imageUrl }) {
   
 
   return (
+   
     <div className={`accordion-item ${isCollapsed ? '' : 'active'}`}>
       <button className="accordion-button" onClick={toggleAccordion}>
         <div className='infor'>
@@ -29,6 +30,7 @@ function AccordionItem({ time, title, content, imageUrl }) {
         </div>
       )}
     </div>
+
   );
 }
 
@@ -56,6 +58,7 @@ function Accordion() {
 
   return (
     <>
+     <div className="acc-container">
     <div className='contain'>
         <p className="topics">
             Agenda
@@ -83,6 +86,7 @@ function Accordion() {
           imageUrl={item.imageUrl}
         />
       ))}
+    </div>
     </div>
     </div>
     </>

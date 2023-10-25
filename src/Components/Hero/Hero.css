@@ -143,8 +143,19 @@
 }
 
 h4 {
-  color: #0f3879;
+  color: #0f3571;
   margin-bottom: 8px;
+}
+
+.next{
+  margin-top: 7px;
+}
+
+.new{
+  width: 50%;
+
+  margin: 10px auto;
+ 
 }
 .bottom {
   display: flex;
@@ -164,4 +175,8 @@ h4 {
 
 .bottom p {
   font-size: 14px;
+}
+.book-now{
+  display: flex;
+  margin: auto;
 }

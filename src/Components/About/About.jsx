@@ -4,8 +4,12 @@ import './About.css'
 function AboutUs() {
   return (
     <div className='about-container'>
-        <div className="about-text">
-        <p>
+       
+       
+         
+
+          <div className='column'>
+          <p>
               <strong>The Lagos Climate Summit 2023</strong>, themed "
               <strong>
                 Innovating for a Resilient Future: Youth Empowerment and SME
@@ -13,9 +17,7 @@ function AboutUs() {
               </strong>
               "
             </p>
-          </div>
 
-          <div>
             <p>
               The Lagos Climate Summit 2023 - <strong>LCS2023 </strong>is not
               merely a conference; it stands as the convergence of visionary
@@ -35,7 +37,7 @@ function AboutUs() {
             </ul>
           </div>
 
-          <div>
+          <div className='column'>
             <p>
               The world today seeks solutions that embody{" "}
               <strong>inclusivity</strong>, <strong>innovation</strong>, and{" "}
@@ -49,18 +51,18 @@ function AboutUs() {
               strategies. By centering on the vibrant engagement of youth and
               the potential of SMEs to instigate transformative change bolstered
               by AI innovations, we acknowledge that the solutions to these
-              challenges lie within our grasp. This summit heralds the
+              {/* challenges lie within our grasp. This summit heralds the
               commencement of an exhilarating journey—a journey that brings
               together luminous intellects, industry vanguards, scholars,
               entrepreneurs, and policymakers beneath one roof. Together, we
               will unravel the intricate interplay between <strong>AI</strong>,{" "}
               <strong>climate action</strong>,<strong>youth leadership</strong>,
               and the <strong>role of SMEs</strong> in shaping a metamorphic
-              trajectory for our world.
+              trajectory for our world. */}
             </p>
           </div>
 
-          <div>
+          <div className='column'>
             <p>
               The Lagos Climate Summit 2023 serves as a clarion call to action,
               an embodiment of our shared dedication to forging a sustainable,

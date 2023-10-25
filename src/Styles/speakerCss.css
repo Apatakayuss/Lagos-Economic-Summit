@@ -12,9 +12,6 @@
   transition: opacity 0.3s;
   border-radius: 50%;
 }
-
-/* ... Previous styles ... */
-
 .overlay {
   position: absolute;
   top: 0;
@@ -36,7 +33,7 @@
   opacity: 1;
 }
 
-/* ... Remaining styles ... */
+
 
 .caption {
   position: absolute;
@@ -45,7 +42,7 @@
   transform: translate(-50%, -50%);
 
   color: #fff;
-  width: 100%;
+  width: 90%;
   opacity: 0;
   transition: opacity 0.3s;
   font-size: 18px;
@@ -115,10 +112,9 @@
 
 .captionTwo {
   position: absolute;
-  top: 95%; /* Adjust the top position to position it below the caption */
+  top: 95%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* Background color and other styles for captionTwo */
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 5px;
@@ -129,7 +125,14 @@
   transition: opacity 0.3s;
 }
 
-/* Show captionTwo on hover */
 .hovered .captionTwo.overlay-visible {
   opacity: 1;
-}
+} 
+
+
+
+
+
+
+
+
