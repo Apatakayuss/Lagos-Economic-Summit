@@ -45,7 +45,7 @@ const SlidingContentBackground = () => {
             
           </div>
           <div className="next">
-          <p>21, Nov 2023 |  Ballroom, Oriental Hotel</p>
+          <p style={{fontWeight: '700'}}>21, Nov 2023 |  Ballroom, Oriental Hotel</p>
           </div>
 
 
