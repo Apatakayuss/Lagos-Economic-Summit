@@ -11,14 +11,10 @@ import Aice from "../Assets/AICE.png";
 import Eco from "../Assets/ECO.jpeg";
 import Afya from "../Assets/AfyaRekod.jpeg";
 import  { GiCheckMark } from 'react-icons/gi'
-// import { ColoredLine } from "../Components/Colorline";
+
 
 export default function Sponsors() {
   const email = "lagos-summit@forum.com";
-  // const imageUrl =
-  //   "https://global-aiconference.com/wp-content/uploads/2023/07/3007-Ai23-Web-Backgrounds-1900x600px-1-scaled.jpg";
-  // const Url =
-  //   "	https://global-aiconference.com/wp-content/uploads/2023/07/checked.png";
   return (
     <Box>
       <Box

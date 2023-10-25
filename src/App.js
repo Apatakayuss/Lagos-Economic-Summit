@@ -19,7 +19,7 @@ function App() {
   return (
     <div className='App'>
       <div style={{ position: "sticky" }}>
-        <Navbar />
+      <Navbar/>
         <Element name='AboutUs'>
           <div style={{ height: "100%" }}>
             <About />
@@ -34,7 +34,6 @@ function App() {
 
         <Element name='Speakers'>
           <div style={{ height: "100%", padding: "20px 0" }}>
-            {/* <SpeakerOutput /> */}
             <Speakers />
           </div>
         </Element>
