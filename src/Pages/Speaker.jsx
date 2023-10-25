@@ -1,158 +1,97 @@
-import { Box, SimpleGrid, Image, Text } from "@chakra-ui/react";
-import React, { useState } from "react";
-import Oguogo from "../Assets/oguogo.jpeg";
-import Chilosum from "../Assets/chilosum.jpeg";
-import ladySpeaker from "../Assets/ladySpeaker.jpeg";
-import Killian from "../Assets/Killian.svg";
-import Kamara from "../Assets/johnKamara.jpeg";
-import JohnKamar from "../Assets/John_Kamara.jpeg";
+import React from 'react'
+import Single from '../Components/SingleSpeaker/SingleSpeaker'
+import Killian from '../Assets/Killian.svg'
+import Oguogo from '../Assets/oguogo.jpeg'
+import Chisolum from '../Assets/chilosum.jpeg'
 import "../Styles/speakerCss.css";
 
-export default function Speaker() {
-  const [isHovered, setIsHovered] = useState(null);
-
-  const handleMouseEnter = (i) => {
-    setIsHovered(i);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(null);
-  };
-
-  
+const Speaker = () => {
   return (
-    <div>
-      <Box width='80%' p='20px 25px' margin='0 auto'>
-        <Box
-          justifyContent='center'
-          display='flex'
-          alignItems='center'
-          p='20px'
-          alignContent='center'
-        >
-          {/* <Box
-            width='50%'
-            display='flex'
-            flexDirection='column'
-            justifyContent='center'
-            p='10px'
-            mb='20px'
-            alignItems='center'
-            margin='0 auto'
-            cursor='pointer'
-          > */}
-            <Text fontSize='3.125rem' alignItems='center' fontWeight='600' color='#0f3879'>
-              Speakers
-            </Text>
-          {/* </Box> */}
-        </Box>
-        <SimpleGrid minChildWidth='180px' spacing='40px'>
-          {peakers.map((item, index) => (
-            <Box
-              key={index}
-              // minHeight='150px'
-              // maxWidth='250px'
-              width='100%'
-              display='flex'
-              alignItems='center'
-              backgroundColor='#F2F2F2F'
-              // borderRadius='50%'
-              onMouseEnter={() => handleMouseEnter(index)}
-              onMouseLeave={handleMouseLeave}
-              className={`imageContainer ${isHovered === index ? "hover" : ""}`}
-            >
-              <Image
-                width='100%'
-                height='100%'
-                borderRadius='100%'
-                src={item.imageURL}
-                alt=''
-              />
-              <div
-                className={`overlay ${
-                  isHovered === index ? "overlay-visible" : ""
-                }`}
-              />
-              <div
-                className={`caption ${
-                  isHovered === index ? "caption-visible" : ""
-                }`}
-                
-              >
-                <Text
-                fontSize='14px'
-                width='100%'
-                >
-                {item.caption}
-                </Text>
-              </div>
+    <>
+    <div className="wrapper">
+
+      <div className="topic">
+        <p>Speakers</p>
+      </div>
+
+    <div className="speaker-container"  >
+    <Single 
+        src={Killian}
+        alt="Image Alt Text"
+        caption="Main Caption"
+        secCaption="Secondary Caption"
+        linkedinUrl="https://www.linkedin.com//"
+      />
+
+<Single
+        src={Oguogo}
+        alt="Image Alt Text"
+        caption="Main Caption"
+        secCaption="Secondary Caption"
+        linkedinUrl="https://www.linkedin.com//"
+      />
+
+
+<Single
+        src={Chisolum}
+        alt="Image Alt Text"
+        caption="Main Caption"
+        secCaption="Secondary Caption"
+        linkedinUrl="https://www.linkedin.com//"
+      />
+
+
+<Single
+        src={Killian}
+        alt="Image Alt Text"
+        caption="Main Caption"
+        secCaption="Secondary Caption"
+        linkedinUrl="https://www.linkedin.com//"
+      />
 
 
 
-              <div
-                className={`secCaption ${
-                  isHovered === index ? "caption-visible" : ""
-                }`}
-                
-              >
-                <Text
-                fontSize='14px'
-                width='100%'
-                >
-                {item.secCaption}
-                </Text>
-              </div>
-              
-            </Box>
-          ))}
-        </SimpleGrid>
-      </Box>
+<Single
+        src={Chisolum}
+        alt="Image Alt Text"
+        caption="Main Caption"
+        secCaption="Secondary Caption"
+        linkedinUrl="https://www.linkedin.com//"
+      />
+
+
+
+
+<Single
+        src={Oguogo}
+        alt="Image Alt Text"
+        caption="Main Caption"
+        secCaption="Secondary Caption"
+        linkedinUrl="https://www.linkedin.com//"
+      />
+
+
+
+      <Single
+        src={Chisolum}
+        alt="Image Alt Text"
+        caption="Main Caption"
+        secCaption="Secondary Caption"
+        linkedinUrl="https://www.linkedin.com//"
+      />
+      <Single
+        src={Killian}
+        alt="Image Alt Text"
+        caption="Main Caption"
+        secCaption="Secondary Caption"
+        linkedinUrl="https://www.linkedin.com//"
+      /> 
     </div>
-  );
+    </div>
+     
+    
+    </>
+  )
 }
 
-
-const peakers = [
-  {
-    imageURL: JohnKamar,
-    caption: "John Kamara",
-    captionTwo: "Speaker"
-  },
-  {
-    imageURL: Killian,
-    caption: "Killian",
-  },
-  {
-    imageURL: Chilosum,
-    caption: "Guest Speaker",
-  },
-  {
-    imageURL: Kamara,
-    caption: "Developer Nantuya",
-  },
-  {
-    imageURL: Chilosum,
-    caption: "Prince Chisolum",
-  },
-  {
-    imageURL: Oguogo,
-    caption: "Great Oguogo",
-  },
-  {
-    imageURL: ladySpeaker,
-    caption: "Guest Speaker",
-  },
-  {
-    imageURL: Killian,
-    caption: "Killian",
-  },
-];
-
-
-
-
-
-
-
-
-
+export default Speaker

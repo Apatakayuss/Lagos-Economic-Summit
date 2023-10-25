@@ -48,6 +48,16 @@ export default function Navbar() {
                 </Text>
               </Link>
             </div>
+
+            <div className='navbar-svg'>
+              <Link to='Agenda' smooth={true} duration={500}>
+                <Text fontSize='15px' fontWeight='600'>
+                  AGENDA
+                </Text>
+              </Link>
+            </div>
+
+
             <div className='navbar-svg'>
               <Link to='Sponsors' smooth={true} duration={500}>
                 <Text
@@ -59,13 +69,8 @@ export default function Navbar() {
                 </Text>
               </Link>
             </div>
-            <div className='navbar-svg'>
-              <Link to='Agenda' smooth={true} duration={500}>
-                <Text fontSize='15px' fontWeight='600'>
-                  AGENDA
-                </Text>
-              </Link>
-            </div>
+
+            
           </div>
 
 

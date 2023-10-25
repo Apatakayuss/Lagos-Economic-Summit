@@ -53,7 +53,7 @@ const SlidingContentBackground = () => {
             <h5>Innovating for a Resilient Future: Youth Empowerment and SME Resilience in Climate</h5>
           </div>
 
-          <div className='book-now'>
+          <div className='book'>
             <button>
               <Link 
                 to='./BookNow'
