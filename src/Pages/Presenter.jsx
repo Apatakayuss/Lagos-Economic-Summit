@@ -6,6 +6,7 @@ import Agra from "../Assets/AGRA.png";
 import Aice from "../Assets/finalaice.svg";
 import Eco from "../Assets/ecostride.jpeg";
 import Afya from "../Assets/AfyaRekod.jpeg";
+import raai from "../Assets/RAAI.jpeg";
 
 export default function Presenter() {
   return (
@@ -35,6 +36,10 @@ export default function Presenter() {
 
         <div className="sponsor">
           <img src={Afya} alt="" style={{padding: '20px'}}/>
+        </div>
+
+        <div className="sponsor">
+          <img src={raai} alt="" style={{padding: '20px'}}/>
         </div>
       </div>
 
