@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import Concept from '../Concept/Concept'
 
 function AboutUs() {
   return (
@@ -76,6 +77,10 @@ function AboutUs() {
               <strong>Lagos Climate Summit 2023</strong>, where ideas ascend,
               solutions are conceived, and a better future dawns.
             </p>
+        </div>
+
+        <div className="btn-container">
+          <Concept />
         </div>
     </div>
   )

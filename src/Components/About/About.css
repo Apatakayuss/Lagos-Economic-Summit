@@ -8,3 +8,8 @@
     gap: 15px;
     width: 80%;
 }
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

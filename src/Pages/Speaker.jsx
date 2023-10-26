@@ -12,7 +12,7 @@ const Speaker = () => {
     <div className="wrapper">
 
       <div className="topic">
-        <p>Speakers</p>
+        <p>SPEAKERS</p>
       </div>
 
       <div className="speaker-wrapper">

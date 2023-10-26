@@ -40,15 +40,11 @@ const SlidingContentBackground = () => {
             <h2>
               LCS <span>2023</span>
             </h2>
-            <p style={{border: 'none', borderBottom: '1px solid #fff'}}>LAGOS CLIMATE SUMMIT</p>
+            <p>LAGOS CLIMATE SUMMIT</p>
 
             
           </div>
-          <div className="next">
-          <p >21, NOV 2023 |  BALLROOM, ORIENTAL HOTEL. LAGOS - NIGERIA</p>
-          </div>
-
-
+         
 
 
           <div className='book'>
@@ -75,6 +71,12 @@ const SlidingContentBackground = () => {
                 Sponsor
               </Link>
             </button>
+          </div>
+
+
+
+          <div className="next">
+          <p >21, NOV 2023 |  BALLROOM, ORIENTAL HOTEL. LAGOS - NIGERIA</p>
           </div>
 
           {/* <div className='bottom'>

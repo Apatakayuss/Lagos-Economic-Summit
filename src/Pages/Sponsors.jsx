@@ -47,10 +47,11 @@ export default function Sponsors() {
               <Text
                 alignItems='center'
                 color='#0F3879'
-                fontWeight='600'
-                fontSize='2rem'
+                fontWeight='normal'
+                fontSize='1.6rem'
+                textAlign='center'
               >
-                Sponsorship Opportunities
+                SPONSORSHIP OPPORTUNITIES
               </Text>
               {/* <ColoredLine color='#0F3879' /> */}
             </Box>

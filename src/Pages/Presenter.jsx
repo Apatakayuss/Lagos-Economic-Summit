@@ -13,7 +13,7 @@ export default function Presenter() {
     <div>
 
         <div className="head">
-          <h3>Partners/Sponsors</h3>
+          <h3>PARTNERS/SPONSORS</h3>
         </div>
 
       <div className="sponsors-container">

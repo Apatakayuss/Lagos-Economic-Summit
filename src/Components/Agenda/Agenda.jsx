@@ -122,7 +122,7 @@ const Agenda = () => {
     <div className='wrap-agenda'>
       <div className="agenda-container">
         <div className="agenda-top">
-          <h5>Agenda</h5>
+          <h5>AGENDA</h5>
         </div>
         <div className="agenda-box-wrapper">
 
@@ -202,7 +202,7 @@ const Agenda = () => {
               </div>
           </div>
 
-          
+
           </div>
 
       </div>

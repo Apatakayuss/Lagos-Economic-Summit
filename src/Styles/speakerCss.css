@@ -23,9 +23,9 @@
 .topic {
   margin: auto;
   margin-bottom: 15px;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #0f3879;
   width: fit-content;
   text-align: center;
-  font-weight: 700;
+  font-weight: normal;
 }

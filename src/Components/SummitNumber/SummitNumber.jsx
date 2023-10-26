@@ -1,6 +1,5 @@
 import React from 'react'
 import './SummitNumber.css'
-import { Link } from 'react-router-dom'
 import microphone from '../../Assets/mircrophone.svg'
 import gavel from '../../Assets/gavel.svg'
 import people from '../../Assets/people.svg'
@@ -9,7 +8,9 @@ export default function SummitNumber () {
     <div className='summit-number'>
         <h4 className='eko' style={{color: '#fff', 
                                     textAlign: 'center', 
-                                    fontSize: '2rem'}}>
+                                    fontSize: '1.8rem',
+                                    fontWeight: 'normal'}}
+                                    >
             Summit in Numbers
         </h4>
 
@@ -38,17 +39,13 @@ export default function SummitNumber () {
 
 
         <div className='book-now' style={{display: 'flex', justifyContent: 'center', margin: '30px auto 0 auto'}}>
-            <button style={{backgroundColor: '#fff'}}>
-              <Link
-                to='./BookNow'
-                style={{
-                  color: "#0f3879",
-                  fontSize: "18px",
-                }}
-              >
+            <a href='/' style={{backgroundColor: '#fff'}}>
                 Register
-              </Link>
-            </button>
+            </a>
+
+            <a href='/' style={{backgroundColor: '#fff'}}>
+                Sponsor
+            </a>
           </div>
     </div>
   )
