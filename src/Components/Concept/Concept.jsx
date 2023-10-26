@@ -7,7 +7,12 @@ const Button = () => {
     };
     return (
       <div>
-          <button onClick={openResume} >
+          <button onClick={openResume} style={{border: 'none', borderRadius: '5px',
+           backgroundColor:'#0f3879',
+           padding: '10px 20px',
+           color: 'white'
+
+        }} >
              Concept Note
           </button>
       </div>
