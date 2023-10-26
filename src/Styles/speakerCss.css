@@ -1,8 +1,9 @@
 .speaker-container{
-  width: 80%;
+  width: 85%;
   display: flex;
   margin: auto;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
  .image-container{
@@ -22,7 +23,7 @@
 .topic {
   margin: auto;
   margin-bottom: 15px;
-  font-size: 3.125rem;
+  font-size: 2rem;
   color: #0f3879;
   width: fit-content;
   text-align: center;

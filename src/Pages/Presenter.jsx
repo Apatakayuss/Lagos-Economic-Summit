@@ -18,27 +18,27 @@ export default function Presenter() {
 
       <div className="sponsors-container">
         
-        <div className="sponsor">
+        <div className="sponsorss">
           <img src={Agra} alt="" />
         </div>
 
-        <div className="sponsor">
+        <div className="sponsorss">
           <img src={Aice} alt="" style={{padding: '30px'}}/>
         </div>
 
-        <div className="sponsor us">
+        <div className="sponsorss us">
           <img src={US} alt="" style={{padding: '30px'}}/>
         </div>
 
-        <div className="sponsor">
+        <div className="sponsorss">
           <img src={Eco} alt="" style={{padding: '20px'}}/>
         </div>
 
-        <div className="sponsor">
+        <div className="sponsorss">
           <img src={Afya} alt="" style={{padding: '20px'}}/>
         </div>
 
-        <div className="sponsor">
+        <div className="sponsorss">
           <img src={raai} alt="" style={{padding: '20px'}}/>
         </div>
       </div>

@@ -19,14 +19,20 @@ const HoverCaptionImage = ({ src, alt, caption, secCaption, linkedinUrl }) => {
       onMouseLeave={handleMouseLeave}
     >
       <img src={src} alt={alt} className="image" />
-      <div className={`overlay ${isHovered ? "overlay-visible" : ""}`}></div>
-      <div className={`caption ${isHovered ? "overlay-visible" : ""}`}>
-        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
+            <div className={`overlay ${isHovered ? "overlay-visible" : ""}`}>
+            <div className={`caption ${isHovered ? "overlay-visible" : ""}`}>
+        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer"
+        onMouseEnter={(e) => (e.target.style.color = '#fff')}
+        
+        >
+            
           {caption}
         </a>
+        </div>
       </div>
       <div className={`secCaption ${isHovered ? "overlay-visible" : ""}`}>
         {secCaption}
+      
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ export default function SummitNumber () {
     <div className='summit-number'>
         <h4 className='eko' style={{color: '#fff', 
                                     textAlign: 'center', 
-                                    fontSize: '3.125rem'}}>
+                                    fontSize: '2rem'}}>
             Summit in Numbers
         </h4>
 

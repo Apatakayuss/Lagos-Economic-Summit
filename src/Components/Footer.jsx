@@ -19,9 +19,9 @@ return (
     <div className='footer'>
         <div className='detail'>
             <div className="detail-left deets" style={{display: 'flex', flexDirection: 'column'}}>
-                <h4 style={{ color: '#ECFBFD' }}>Office Address</h4>
+                <h4 style={{ color: '#ECFBFD' }}>OFFICE ADDRESS</h4>
                 <p className='p-mid'>Sunny Motors, Plot 3, Otunba Adedoyin Ogunge close,</p>
-                <p>Lekki phase 1, Lagos. Nigeria.</p>
+                <p>Lekki phase 1, Lagos - Nigeria.</p>
 
 
 
@@ -40,9 +40,9 @@ return (
             </div>
             </div>
             <div className="detail-right deets" style={{display: 'flex', flexDirection: 'column'}}>
-                <h4 style={{ color: '#ECFBFD' }}>Event Address</h4>
-                <p className='p-mid'>The Ball-Room, Lagos Oriental Hotel Lekki - Epe Expy,</p>
-                <p>Victoria Island 106104, Lagos</p>
+                <h4 style={{ color: '#ECFBFD' }}>EVENT ADDRESS</h4>
+                <p className='p-mid'>The Ball-Room, Lagos Oriental Hotel Lekki - Epe Express way,</p>
+                <p>Victoria Island 106104, Lagos - Nigeria</p>
 
                 <div className='info-tel' style={{justifyContent: 'flex-start'}}>
                 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
@@ -71,7 +71,7 @@ return (
         <hr />
         <div className="foot">
             <div className='foot-note'>
-                <p style={{fontSize: '12px'}}>© 2023 The Lagos ESG Summit. All rights reserved.</p>
+                <p style={{fontSize: '12px'}}>© 2023 The Lagos Climate Summit. All rights reserved.</p>
             </div>
             <div className='foot-icon'>
 

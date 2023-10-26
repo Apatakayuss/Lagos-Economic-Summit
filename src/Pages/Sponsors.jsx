@@ -48,7 +48,7 @@ export default function Sponsors() {
                 alignItems='center'
                 color='#0F3879'
                 fontWeight='600'
-                fontSize='50px'
+                fontSize='2rem'
               >
                 Sponsorship Opportunities
               </Text>

@@ -151,6 +151,7 @@ h4 {
   margin-top: 7px;
 }
 
+
 .new{
   width: 50%;
 
@@ -179,6 +180,7 @@ h4 {
 .book{
   display: flex;
   margin: 20px auto 0 auto;
+  gap: 12px;
 }
 
 .book button {

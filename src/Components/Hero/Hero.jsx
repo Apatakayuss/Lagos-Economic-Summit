@@ -40,18 +40,16 @@ const SlidingContentBackground = () => {
             <h2>
               LCS <span>2023</span>
             </h2>
-            <p>LAGOS CLIMATE SUMMIT</p>
+            <p style={{border: 'none', borderBottom: '1px solid #fff'}}>LAGOS CLIMATE SUMMIT</p>
 
             
           </div>
           <div className="next">
-          <p style={{fontWeight: '700'}}>21, Nov 2023 |  Ballroom, Oriental Hotel</p>
+          <p >21, NOV 2023 |  BALLROOM, ORIENTAL HOTEL. LAGOS - NIGERIA</p>
           </div>
 
 
-          <div className="new">
-            <h5>Innovating for a Resilient Future: Youth Empowerment and SME Resilience in Climate</h5>
-          </div>
+
 
           <div className='book'>
             <button>
@@ -63,6 +61,18 @@ const SlidingContentBackground = () => {
                 }}
               >
                 Register
+              </Link>
+            </button>
+
+            <button>
+              <Link 
+                to='./BookNow'
+                style={{
+                  color: "#FFF",
+                  fontSize: "18px",
+                }}
+              >
+                Sponsor
               </Link>
             </button>
           </div>

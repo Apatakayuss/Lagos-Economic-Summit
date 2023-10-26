@@ -14,7 +14,7 @@
 }
 
 img {
-  width: 180px;
+  width: 150px;
 }
 
 .navbar-pages {
@@ -52,6 +52,7 @@ a:hover {
 .book-now {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .book-now button {
@@ -62,7 +63,15 @@ a:hover {
   color: white;
 }
 
-.book-now button:hover {
+.sponsor, .register{
+  border: none;
+  border-radius: 5px;
+  background-color: #0f3879;
+  padding: 10px 20px;
+  color: white;
+}
+
+.book-now a:hover {
   color: #0f3879;
   border: 1px solid #0f3879;
 }
