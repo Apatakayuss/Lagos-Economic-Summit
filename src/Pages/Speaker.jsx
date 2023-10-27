@@ -1,8 +1,8 @@
 import React from 'react'
 import Single from '../Components/SingleSpeaker/SingleSpeaker'
 import Killian from '../Assets/Killian.svg'
-import Oguogo from '../Assets/great.jpeg'
-import Chisolum from '../Assets/prince.jpeg'
+import Oguogo from '../Assets/round.png'
+import Chisolum from '../Assets/roundprince.png'
 import John from '../Assets/johnKamara.jpeg'
 import "../Styles/speakerCss.css";
 
@@ -17,86 +17,66 @@ const Speaker = () => {
 
       <div className="speaker-wrapper">
 
-    <div className="speaker-container"  >
- 
+    <div className="speaker-container" >
+    
+       
+          <Single 
+          alt='John Kamara'
+          src={John}
+          caption='John Kamara'
+          secCaption='CEO/Co-founder Adanian Labs'
+          />
+          <Single 
+          alt='John Kamara'
+          src={Oguogo}
+          caption='Great Oguguo'
+          secCaption='Board member EcoStride Energy Limited'
+          />
+            <Single 
+          alt='Prince Chisolum'
+          src={Chisolum}
+          caption='Prince Chisolum'
+          secCaption='Economist, World Intellectual Property
+          Organisation Switzerland.'
+          />
+            <Single 
+          alt='Killian'
+          src={Killian}
+          caption='Killian Mayua'
+          secCaption='Country Head Adanian Labs NG'
+          />
+         <Single 
+          alt='John Kamara'
+          src={John}
+          caption='John Kamara'
+          secCaption='CEO/Co-founder Adanian Labs'
+          />
+          <Single 
+          alt='John Kamara'
+          src={John}
+          caption='John Kamara'
+          secCaption='CEO/Co-founder Adanian Labs'
+          />
+            <Single 
+          alt='John Kamara'
+          src={John}
+          caption='John Kamara'
+          secCaption='CEO/Co-founder Adanian Labs'
+          />
+            <Single 
+          alt='John Kamara'
+          src={John}
+          caption='John Kamara'
+          secCaption='CEO/Co-founder Adanian Labs'
+          />
 
-<Single
-        src={Oguogo}
-        alt="Great Oguguo"
-        caption="Great Oguguo"
-        secCaption="Board member, EcoStride Energy Limited"
-        linkedinUrl="https://www.linkedin.com//"
+
+
+
+
+
      
-      />
-
-
-<Single
-        src={Chisolum}
-        alt="Prince Chisolum"
-        caption="Prince Chisolum"
-        secCaption="Economist at World Intellectual Property
-        Organisation"
-        linkedinUrl="https://www.linkedin.com//"
-  
-      />
-      
-
-
-<Single
-        src={John}
-        alt="John Kamara"
-        caption="John Kamara"
-        secCaption="CEO/Co-founder Adanian Labs"
-        linkedinUrl="https://www.linkedin.com//"
-  
-      />
-
-<Single 
-        src={Killian}
-        alt="Killian Mayua"
-        caption="Killian Mayua"
-        secCaption="Country Head, Adanian Labs NG"
-        linkedinUrl="https://www.linkedin.com//"
-      
-      />
-
-<Single className='chiso'
-        src={Chisolum}
-        alt="Image Alt Text"
-        caption="Main Caption"
-        secCaption="Secondary Caption"
-        linkedinUrl="https://www.linkedin.com//"
  
-      />
-
-
-<Single
-        src={Oguogo}
-        alt="Image Alt Text"
-        caption="Main Caption"
-        secCaption="Secondary Caption"
-        linkedinUrl="https://www.linkedin.com//"
-      />
-
-
-
-      <Single
-        src={Chisolum}
-        alt="Image Alt Text"
-        caption="Main Caption"
-        secCaption="Secondary Caption"
-        linkedinUrl="https://www.linkedin.com//"
-      />
-
-      
-      <Single
-        src={Killian}
-        alt="Image Alt Text"
-        caption="Main Caption"
-        secCaption="Secondary Caption"
-        linkedinUrl="https://www.linkedin.com//"
-      
-      /> 
      
       
     </div>
