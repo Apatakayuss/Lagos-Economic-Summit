@@ -4,7 +4,6 @@ import {
   Text,
   SimpleGrid,
 } from "@chakra-ui/react";
-// import Bolt from "../Assets/Bolts.png";
 import US from "../Assets/USMission.png";
 import Agra from "../Assets/AGRA.png";
 import Aice from "../Assets/AICE.png";

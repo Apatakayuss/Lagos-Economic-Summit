@@ -3,9 +3,12 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    @media (max-width: 768px){
-        flex-direction: column;
-    }
+}
+
+@media (max-width: 768px){
+    .sponsors-container{
+    flex-direction: column;
+}
 }
 .sponsorss{
     display: grid;
@@ -23,13 +26,16 @@
     font-size: 1.6rem;
     /* color: #0f3879; */
     font-weight: normal;
-    @media (max-width: 768px){
-        font-size: 1.6rem;
-    }
 
 }
-.us{
+@media (max-width: 768px){
+    .head h3{
+    font-size: 1.6rem;
+    }
+}
+
     @media (max-width: 768px){
+        .us{
         padding: 0;
     }
 }
