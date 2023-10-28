@@ -43,10 +43,19 @@
     font-size: 18px;
     line-height: 1.2;
     width: 80%;
-    @media (max-width: 475px){
-      top: 60%;
-    }
   }
+
+  @media (max-width: 768px){
+    .caption{
+      visibility: visible;
+    }
+     }
+
+     @media (max-width: 475px){
+      .caption{
+        top: 60%;
+      }
+       }
 /* 
   .secCaption {
     position: absolute;
@@ -83,9 +92,12 @@
     font-size: 14px;
     transition: opacity 0.3s;
     text-align: center;
-    @media (max-width: 475px){
+  }
+
+  @media (max-width: 768px){
+    .secCaption{
       top: 75%;
-      width: 65%;
+      width: 70%;
     }
   }
   
@@ -143,10 +155,8 @@
   .hovered .overlay.overlay-visible {
     opacity: 1;
   }
-  .caption{
-    @media (max-width: 768px){
-        visibility: visible;
-       }
-  }
+  
+ 
+  
 
  
