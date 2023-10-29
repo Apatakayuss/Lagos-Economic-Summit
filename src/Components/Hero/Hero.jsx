@@ -1,7 +1,6 @@
 // SlidingContentBackground.js
 import React from "react";
 import "./Hero.css";
-import { Link } from 'react-router-dom'
 // import image1 from "../../Assets/Background.png";
 // import image2 from "../../Assets/bg3.png";
 // import image3 from "../../Assets/background3.png";
@@ -48,29 +47,24 @@ const SlidingContentBackground = () => {
 
 
           <div className='book'>
-            <button>
-              <Link 
-                to='./BookNow'
+          <a href="/" rel="noreferrer" className="hero-sponsor"
                 style={{
                   color: "#FFF",
                   fontSize: "18px",
                 }}
               >
                 Register
-              </Link>
-            </button>
+            </a>
 
-            <button>
-              <Link 
-                to='./BookNow'
+            <a href="/" rel="noreferrer" className="hero-sponsor"
                 style={{
                   color: "#FFF",
                   fontSize: "18px",
                 }}
               >
                 Sponsor
-              </Link>
-            </button>
+            
+              </a>
           </div>
 
 

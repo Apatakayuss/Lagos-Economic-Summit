@@ -8,6 +8,22 @@
     gap: 15px;
     width: 80%;
 }
+.column{
+    display: flex;
+    gap: 30px;
+
+}
+@media (max-width: 768px){
+    .column{
+        flex-direction: column;
+    }
+}
+.column-one{
+    flex: 1;
+}
+.column-two{
+    flex: 1;
+}
 .btn-container{
     display: flex;
     justify-content: center;

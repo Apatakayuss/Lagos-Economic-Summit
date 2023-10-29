@@ -75,28 +75,26 @@ export default function Navbar() {
 
 
           <div className='book-now' >
-            <a href="/" className="register" rel="noreferrer">
-              <Link
-                to='./BookNow'
+            <a href="/" className="register" rel="noreferrer" target="_blank"
+             
                 style={{
                   color: "#FFF",
                   fontSize: "18px",
                 }}
               >
                 Register
-              </Link>
+            
             </a>
 
-            <a href="/" rel="noreferrer" className="sponsor">
-              <Link
-                to='./BookNow'
+            <a href="/" rel="noreferrer" className="sponsor"
+             
                 style={{
                   color: "#FFF",
                   fontSize: "18px",
                 }}
               >
                 Sponsor
-              </Link>
+            
             </a>
           </div>
         </div>

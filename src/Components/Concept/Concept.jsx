@@ -1,4 +1,4 @@
-import Resume from '../../Assets/test.pdf'
+import Resume from '../../Assets/Concept.pdf'
 import './Concept.css'
 
 const Button = () => {

@@ -32,17 +32,22 @@
   
   .caption {
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
     padding: 5px;
     border-radius: 5px;
+    text-align: center;
     opacity: 0;
     transition: opacity 0.3s;
     font-size: 18px;
     line-height: 1.2;
     width: 80%;
+  }
+  .caption:hover{
+    color: #fff;
+    font-weight: 600;
   }
 
   @media (max-width: 768px){
@@ -82,7 +87,7 @@
   
   .secCaption {
     position: absolute;
-    top: 85%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
@@ -92,6 +97,8 @@
     font-size: 14px;
     transition: opacity 0.3s;
     text-align: center;
+    width: 70%;
+    line-height: 1.2;
   }
 
   @media (max-width: 768px){
@@ -128,13 +135,8 @@
     }
   }
   
-  .caption {
-    text-align: center;
-  }
-  .caption:hover{
-    color: #fff;
-    font-weight: 600;
-  }
+
+ 
 
   /* .overlay {
     position: absolute;

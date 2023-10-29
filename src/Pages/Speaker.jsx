@@ -45,7 +45,7 @@ const Speaker = () => {
           caption='Killian Mayua'
           secCaption='Country Head Adanian Labs NG'
           />
-         <Single 
+         {/* <Single 
           alt='John Kamara'
           src={John}
           caption='John Kamara'
@@ -68,7 +68,7 @@ const Speaker = () => {
           src={John}
           caption='John Kamara'
           secCaption='CEO/Co-founder Adanian Labs'
-          />
+          /> */}
 
 
 
