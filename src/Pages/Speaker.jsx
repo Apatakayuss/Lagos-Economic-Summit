@@ -30,14 +30,17 @@ const Speaker = () => {
           alt='John Kamara'
           src={Oguogo}
           caption='Great Oguguo'
-          secCaption='Board member EcoStride Energy Limited'
+          secCaption='Board member 
+          EcoStride Energy Limited
+          '
           />
             <Single 
           alt='Prince Chisolum'
           src={Chisolum}
           caption='Prince Chisolum'
-          secCaption='Economist, World Intellectual Property
-          Organisation Switzerland.'
+          secCaption='Economist
+          World Intellectual Property Organisation
+          '
           />
             <Single 
           alt='Killian'
@@ -48,8 +51,8 @@ const Speaker = () => {
          <Single 
           alt='John Kamara'
           src={John}
-          caption='John Kamara'
-          secCaption='CEO/Co-founder Adanian Labs'
+          caption='Kenise Hill'
+          secCaption='Dep. Political/Economic Chief'
           />
          {/*  <Single 
           alt='John Kamara'

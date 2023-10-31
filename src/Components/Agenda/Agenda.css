@@ -58,7 +58,20 @@
 }
 .agenda-list{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: flex-start; */
+  
+  gap: 15px;
+}
+.time{
+  min-width:  100px;
+ display: flex;
+ align-items: center;
+}
+@media (max-width: 768px){
+  .time{
+   min-width:  95px;
+  
+  }
 }
 
 

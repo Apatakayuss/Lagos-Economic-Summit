@@ -128,77 +128,79 @@ const Agenda = () => {
 
           <div className="agenda-box">
               <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+              <p className='time'>10:00 - 11:00</p>
+                <p>Arrival, Registration and networking</p>
               </div>
 
               <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+                <p className='time'>10:00 - 11:15</p>
+                <p>Opening Remarks and Disseminatopn of projects</p>
               </div>
 
               <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+                <p className='time'>11:20 - 11:30</p>
+                <p>Open Innovator Exhibition and Networking</p>
               </div>
 
               <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+                <p className='time'>11:30 - 12:00</p>
+                <p>Keynote Address</p>
               </div>
 
               <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+                <p className='time'>12:00 - 12:30</p>
+                <p>Keynote Address</p>
               </div>
 
               <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+                <p className='time'>12:30 - 13:00</p>
+                <p>Panel Discussion</p>
               </div>
 
-              <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
-              </div>
+          
           </div>
 
 
 
           <div className="agenda-box">
           <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+                <p className='time'>13:00 - 13:20</p>
+                <p>Break-out Session</p>
               </div>
 
               <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+                <p className='time'>13:20 - 13:50</p>
+                <p>Keynote Address</p>
               </div>
 
               <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+                <p className='time'>13:50 - 14:20</p>
+                <p>Keynote Address</p>
               </div>
 
               <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+                <p className='time'>14:20 - 14:50</p>
+                <p>Panel Discussion</p>
               </div>
 
               <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+                <p className='time'>14:50 - 15:20</p>
+                <p>Keynote Address</p>
               </div>
 
               <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+                <p className='time'>15:20 - 15:50</p>
+                <p>Keynote Address</p>
               </div>
 
               <div className="agenda-list">
-                <p>8:00am</p>
-                <p>Opening Speech</p>
+                <p className='time'>15:50 - 16:00</p>
+                <p>Refreshment and Networking</p>
+              </div>
+
+              <div className="agenda-list">
+                <p className='time'>15:50</p>
+                <p>Departure</p>
               </div>
           </div>
 
