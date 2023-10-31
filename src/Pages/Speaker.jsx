@@ -4,6 +4,7 @@ import Killian from '../Assets/Killian.svg'
 import Oguogo from '../Assets/round.png'
 import Chisolum from '../Assets/roundprince.png'
 import John from '../Assets/johnKamara.jpeg'
+import Kenise from '../Assets/kenise.png'
 import "../Styles/speakerCss.css";
 
 const Speaker = () => {
@@ -49,8 +50,8 @@ const Speaker = () => {
           secCaption='Country Head Adanian Labs NG'
           />
          <Single 
-          alt='John Kamara'
-          src={John}
+          alt='Kenise Hill'
+          src={Kenise}
           caption='Kenise Hill'
           secCaption='Dep. Political/Economic Chief'
           />
