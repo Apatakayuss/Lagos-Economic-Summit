@@ -70,7 +70,7 @@
 
 .summit-info h2 {
   font-size: 6rem;
-  font-weight: 800;
+  font-weight: 600;
   color: #fff;
   line-height: normal;
 }
@@ -81,7 +81,7 @@
 }
 .lcs{
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 .summit-info .lcs h3 {
   font-size: 6rem;
