@@ -21,7 +21,7 @@ const HoverCaptionImage = ({ src, alt, caption, secCaption, linkedinUrl }) => {
       <img src={src} alt={alt} className="image" />
             <div className={`overlay ${isHovered ? "overlay-visible" : ""}`}>
             <div className={`caption ${isHovered ? "overlay-visible" : ""}`}>
-        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer"
+        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" style={{cursor: 'pointer'}}
         onMouseEnter={(e) => (e.target.style.color = '#fff')}
         
         >

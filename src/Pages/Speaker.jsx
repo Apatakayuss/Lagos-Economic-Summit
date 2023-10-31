@@ -53,7 +53,7 @@ const Speaker = () => {
           alt='Kenise Hill'
           src={Kenise}
           caption='Kenise Hill'
-          secCaption='Dep. Political/Economic Chief'
+          secCaption='Dep. Political/Economic Chief U.S. Consulate General'
           />
          {/*  <Single 
           alt='John Kamara'
