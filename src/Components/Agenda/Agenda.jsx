@@ -134,7 +134,7 @@ const Agenda = () => {
 
               <div className="agenda-list">
                 <p className='time'>10:00 - 11:15</p>
-                <p>Opening Remarks and Disseminatopn of projects</p>
+                <p>Opening Remarks and Dissemination of projects</p>
               </div>
 
               <div className="agenda-list">
