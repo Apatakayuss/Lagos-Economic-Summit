@@ -47,20 +47,4 @@ export default function Presenter() {
   );
 }
 
-// const Sponsor = [
-//   {
-//     image: Agra,
-//   },
-//   {
-//     image: Aice,
-//   },
-//   {
-//     image: US,
-//   },
-//   {
-//     image: Eco,
-//   },
-//   {
-//     image: Afya,
-//   },
-// ];
+

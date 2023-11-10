@@ -71,7 +71,7 @@ return (
         <hr />
         <div className="foot">
             <div className='foot-note'>
-                <p style={{fontSize: '12px'}}>© 2023 The Lagos Climate Summit. All rights reserved.</p>
+                <p style={{fontSize: '12px'}}>© 2023 The Lagos Climate Roundtable. All rights reserved.</p>
             </div>
             <div className='foot-icon'>
 

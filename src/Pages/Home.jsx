@@ -28,7 +28,6 @@ function Home() {
           <SummitNumber />
         </div>
 
-        {/* SPEAKERS SECTION */}
         <div style={{ padding: "25px 0" }}>
           <SpeakerOutput />
         </div>

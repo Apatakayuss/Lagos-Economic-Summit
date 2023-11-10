@@ -20,7 +20,7 @@ function AboutUs() {
               <p>
               We are delighted to present an exceptional opportunity that 
               seamlessly interweaves these elements into a dynamic and 
-              impactful event: The Lagos Climate Summit 2023, themed 
+              impactful event: The Lagos Climate Roundtable 2023, themed 
               "Innovating for a Resilient Future: Youth Empowerment and 
               SME Resilience in Climate Action."
               </p>

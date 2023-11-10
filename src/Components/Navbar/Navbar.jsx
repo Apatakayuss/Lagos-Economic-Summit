@@ -1,6 +1,6 @@
 import React from "react";
 import "../Navbar/Navbar.css";
-import logo from "../../Assets/LCShigh.png";
+import logo from "../../Assets/lcrlogo.png";
 import { Link } from "react-scroll";
 // import AboutUs from "../../Pages/AboutUs";
 import Hero from "../Hero/Hero";

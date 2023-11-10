@@ -25,7 +25,7 @@ const SlidingContentBackground = () => {
             <div className="lcs">
              <h2>LCS</h2><h3>2023</h3>
             </div>
-            <p>LAGOS CLIMATE SUMMIT</p>
+            <p>LAGOS CLIMATE ROUNDTABLE</p>
 
             
           </div>
